@@ -23,7 +23,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      //"roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "857090358750875648"
       "name": "ConConCon",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -46,7 +46,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     // "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "neresonbe",
       "managerID" : "1004151084518084608"
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -69,7 +69,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     // "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID" : "1004280016814931968"
       "name": "WyattJabroni",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -92,7 +92,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      //"roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "GolferSwag",
       "managerID" : "1004464186409201664"
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -115,7 +115,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     // "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "austinschultz05",
       "managerID" : "1004574537364668416"
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -138,7 +138,7 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     // "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "ae123",
       "managerID" : "1004814360046313472"
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -161,13 +161,13 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     // "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Winterseason",
       "managerID" : "1004913441456414720"
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "Josh Allen MVP",
-      //"photo": "https://sleepercdn.com/uploads/3c8a522082b40e87be4be1b8ee32a3e4.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/everyone.png", // square ratio recommended (no larger than 500x500)
       //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -184,13 +184,13 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     // "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "AlecBarnick",
       "managerID" : "1004934245967650816"
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "No Rebuild Needed",
-      //"photo": "https://sleepercdn.com/uploads/3c8a522082b40e87be4be1b8ee32a3e4.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/everyone.png", // square ratio recommended (no larger than 500x500)
       //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "lac", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -207,13 +207,13 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
       {
-      "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+    //  "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Erikengel0405",
       "managerID" : "1004947285043765248"
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "I tank",
-      //"photo": "https://sleepercdn.com/uploads/3c8a522082b40e87be4be1b8ee32a3e4.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/everyone.png", // square ratio recommended (no larger than 500x500)
       //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -230,13 +230,13 @@ export const managers = [
       "preferredContact": "Carrier Pigeon", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
         {
-      "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+     // "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "kylerolsen",
       "managerID" : "1005000929273319424"
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "Autin's biggest opp",
-      //"photo": "https://sleepercdn.com/uploads/3c8a522082b40e87be4be1b8ee32a3e4.jpg", // square ratio recommended (no larger than 500x500)
+      "photo": "/managers/everyone.png", // square ratio recommended (no larger than 500x500)
       //"fantasyStart": 2014, // (optional) when did the manager start playing fantasy football
       "favoriteTeam": "min", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
