@@ -24,7 +24,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
       //"roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : "857090358750875648"
+      "managerID" : "857090358750875648",
       "name": "ConConCon",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Moorhead", // (optional)
@@ -70,7 +70,7 @@ export const managers = [
     },
     {
      // "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "managerID" : "1004280016814931968"
+      "managerID" : "1004280016814931968",
       "name": "WyattJabroni",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
@@ -94,7 +94,7 @@ export const managers = [
     {
       //"roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "GolferSwag",
-      "managerID" : "1004464186409201664"
+      "managerID" : "1004464186409201664",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "7th in PF with a first round bye",
@@ -117,7 +117,7 @@ export const managers = [
       {
      // "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "austinschultz05",
-      "managerID" : "1004574537364668416"
+      "managerID" : "1004574537364668416",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "No Rebuild Needed",
@@ -140,7 +140,7 @@ export const managers = [
       {
      // "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "ae123",
-      "managerID" : "1004814360046313472"
+      "managerID" : "1004814360046313472",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "No Rebuild Needed",
@@ -163,7 +163,7 @@ export const managers = [
       {
      // "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Winterseason",
-      "managerID" : "1004913441456414720"
+      "managerID" : "1004913441456414720",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "Josh Allen MVP",
@@ -186,7 +186,7 @@ export const managers = [
       {
      // "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "AlecBarnick",
-      "managerID" : "1004934245967650816"
+      "managerID" : "1004934245967650816",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "No Rebuild Needed",
@@ -209,7 +209,7 @@ export const managers = [
       {
     //  "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Erikengel0405",
-      "managerID" : "1004947285043765248"
+      "managerID" : "1004947285043765248",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "I tank",
@@ -232,7 +232,7 @@ export const managers = [
         {
      // "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "kylerolsen",
-      "managerID" : "1005000929273319424"
+      "managerID" : "1005000929273319424",
       //"tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       //"location": "Brooklyn", // (optional)
       "bio": "Autin's biggest opp",
